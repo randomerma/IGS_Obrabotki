@@ -406,7 +406,7 @@
 	игсРасчетыПоЗаявкамНаОплатуОбороты.СуммаРасход КАК СуммаРасход
 ПОМЕСТИТЬ ВТ_Оплаты
 ИЗ
-	РегистрНакопления.игсРасчетыПоЗаявкамНаОплату.Обороты КАК игсРасчетыПоЗаявкамНаОплатуОбороты
+	РегистрНакопления.игсРасчетыПоЗаявкамНаОплату.Обороты(&amp;НачалоПериода, &amp;КонецПериода, Период, ) КАК игсРасчетыПоЗаявкамНаОплатуОбороты
 ГДЕ
 	игсРасчетыПоЗаявкамНаОплатуОбороты.СуммаРасход &gt; 0
 ;
@@ -648,13 +648,12 @@
 			</v8:item>
 		</title>
 		<valueType>
-			<v8:Type>v8:StandardPeriod</v8:Type>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
 		</valueType>
-		<value xsi:type="v8:StandardPeriod">
-			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-		</value>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<parameter>
@@ -673,7 +672,6 @@
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
-		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -691,7 +689,6 @@
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
-		<expression>&amp;Период.ДатаНачала</expression>
 	</parameter>
 	<parameter>
 		<name>СубконтоСчета</name>
