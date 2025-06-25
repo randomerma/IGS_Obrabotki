@@ -940,13 +940,19 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ТекущаяОрганизация</dcscor:parameter>
-					<dcscor:value xsi:type="dcscor:Field"/>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Справочник.Организации.ПустаяСсылка</dcscor:value>
 					<dcsset:userSettingID>f8b31f5c-2703-4d98-8136-647c4ac05283</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВыводитьБезОдежды</dcscor:parameter>
-					<dcscor:value xsi:type="dcscor:Field"/>
+					<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
 					<dcsset:userSettingID>88642e0e-1270-47dc-8a58-c2e1edfd99ec</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выводить сотрудников без спецодежды</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
