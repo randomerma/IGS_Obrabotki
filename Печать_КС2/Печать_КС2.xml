@@ -98,7 +98,6 @@
 			</Attribute>
 			<Form>Форма</Form>
 			<Template>КС2</Template>
-			<Template>Акт</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
