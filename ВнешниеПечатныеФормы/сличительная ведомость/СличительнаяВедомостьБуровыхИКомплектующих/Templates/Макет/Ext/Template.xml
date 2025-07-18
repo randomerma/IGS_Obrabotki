@@ -1,0 +1,2354 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>13</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>1</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>2</index>
+			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>3</index>
+			<column>
+				<formatIndex>4</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>4</index>
+			<column>
+				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>5</index>
+			<column>
+				<formatIndex>6</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>6</index>
+			<column>
+				<formatIndex>7</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>7</index>
+			<column>
+				<formatIndex>8</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>8</index>
+			<column>
+				<formatIndex>9</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>9</index>
+			<column>
+				<formatIndex>10</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>10</index>
+			<column>
+				<formatIndex>11</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>11</index>
+			<column>
+				<formatIndex>12</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>12</index>
+			<column>
+				<formatIndex>12</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<formatIndex>13</formatIndex>
+			<c>
+				<c>
+					<f>14</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>К о м п л е к т о в о ч н а я     в е д о м о с т ь</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Сличительная ведомость на комплект оборудования </d>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>1</index>
+		<row>
+			<formatIndex>15</formatIndex>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>                                                                               Утверждаю</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">                                                                               Утверждаю</d>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<formatIndex>19</formatIndex>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>                                                                                                    ________________________</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">                                                                                                    ________________________</d>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<formatIndex>19</formatIndex>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>                                                                                                     _______________ /_____________/</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">                                                                                                     _______________ /_____________/</d>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<formatIndex>19</formatIndex>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>                                                                                                    «_____» _______________ 20_____ г.</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">                                                                                                    «_____» _______________ 20_____ г.</d>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>5</index>
+		<row>
+			<formatIndex>19</formatIndex>
+			<c>
+				<c>
+					<f>20</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<formatIndex>13</formatIndex>
+			<c>
+				<c>
+					<f>21</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сличительная ведомость [НомерДокумента] на комплект оборудования </v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Сличительная ведомость на комплект оборудования </d>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<formatIndex>15</formatIndex>
+			<c>
+				<c>
+					<f>22</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>и объектов бригадного хозяйства </v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">и объектов бригадного хозяйства </d>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<formatIndex>15</formatIndex>
+			<c>
+				<c>
+					<f>23</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<formatIndex>15</formatIndex>
+			<c>
+				<c>
+					<f>23</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<formatIndex>24</formatIndex>
+			<c>
+				<c>
+					<f>25</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дислокация: [Склад]</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Комплектовочная ведомость на комплект оборудования </d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>26</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>27</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>28</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>29</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>30</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>17</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<formatIndex>31</formatIndex>
+			<c>
+				<c>
+					<f>32</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>33</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>34</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>34</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>34</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>34</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<formatIndex>35</formatIndex>
+			<c>
+				<c>
+					<f>36</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№ п/п</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">№ п/п</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Наименование</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обозначение (инв.№)</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Обозначение (инв.№)</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Зав. №</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Зав. №</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>37</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ед. изм.</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Ед. изм.</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>38</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кол-во в учете</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Кол-во в учете</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>39</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кол-во факт</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Кол-во факт</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>39</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Излишки</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Излишки</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>39</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Недостача</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Недостача</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отрегулировано за счет уточнений в учете, излишки</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Отрегулировано за счет уточнений в учете, излишки</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отрегулировано за счет уточнений в учете, недостача</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Отрегулировано за счет уточнений в учете, недостача</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Окончательные излишки</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Окончательные излишки</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>40</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Окончательная недостача</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Окончательная недостача</d>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<formatIndex>19</formatIndex>
+			<c>
+				<c>
+					<f>41</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>1</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">1</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>2</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">2</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>3</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">3</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>4</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">4</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>5</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">5</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>6</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">6</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>7</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">7</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>8</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">8</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>9</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">9</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>10</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">10</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>11</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">11</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>12</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">12</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>13</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">13</d>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<formatIndex>43</formatIndex>
+			<c>
+				<c>
+					<f>44</f>
+					<parameter>НомерСтроки</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>45</f>
+					<parameter>ОсновноеСредствоНаименованиеПолное</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+					<parameter>ИнвентарныйНомер</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>46</f>
+					<parameter>ЗаводскойНомер</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>47</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>шт</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">шт</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>48</f>
+					<parameter>НаличиеПоДаннымУчета</parameter>
+					<d xsi:type="xs:string">1</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+					<parameter>НаличиеФактическое</parameter>
+					<d xsi:type="xs:string">1</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>50</f>
+					<parameter>ИзлишекКоличество</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>50</f>
+					<parameter>НедостачаКоличество</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>51</f>
+					<parameter>РегулировкаИзлишекКолво</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>52</f>
+					<parameter>РегулировкаНедостачаКолво</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>51</f>
+					<parameter>РегулировкаИзлишекКолво1</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>52</f>
+					<parameter>РегулировкаНедостачаКолво1</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<formatIndex>53</formatIndex>
+			<c>
+				<c>
+					<f>54</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<formatIndex>53</formatIndex>
+			<c>
+				<c>
+					<f>57</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Материально-ответственное лицо:</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">Материально-ответственное лицо:</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<formatIndex>53</formatIndex>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<formatIndex>53</formatIndex>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>60</f>
+					<parameter>Должность</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>61</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>60</f>
+					<parameter>ФИО</parameter>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<formatIndex>62</formatIndex>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>63</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>должность</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">должность</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>63</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>подпись</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">подпись</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>63</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>расшифровка</v8:content>
+						</v8:item>
+					</tl>
+					<d xsi:type="xs:string">расшифровка</d>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+					<d xsi:type="xs:string"/>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>64</defaultFormatIndex>
+	<height>20</height>
+	<vgRows>20</vgRows>
+	<merge>
+		<r>0</r>
+		<c>0</c>
+		<w>12</w>
+	</merge>
+	<merge>
+		<r>6</r>
+		<c>0</c>
+		<w>12</w>
+	</merge>
+	<merge>
+		<r>7</r>
+		<c>0</c>
+		<w>12</w>
+	</merge>
+	<merge>
+		<r>10</r>
+		<c>0</c>
+		<w>5</w>
+	</merge>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ПодвалТаблицы</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>15</beginRow>
+			<endRow>19</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаТаблицы</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>14</beginRow>
+			<endRow>14</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>0</beginRow>
+			<endRow>13</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
+	</line>
+	<line width="2" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<font xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" faceName="Times New Roman" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+	<font xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" faceName="Times New Roman" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont" scale="100"/>
+	<font xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" faceName="Times New Roman" height="14" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont" scale="100"/>
+	<font xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" faceName="Times New Roman" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont" scale="100"/>
+	<font xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" faceName="Times New Roman" height="14" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont" scale="100"/>
+	<font faceName="Arial" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" faceName="Calibri" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont" scale="100"/>
+	<font xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" faceName="Times New Roman" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont" scale="100"/>
+	<font xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" ref="sys:DefaultGUIFont" faceName="Times New Roman" height="10" bold="false" italic="false" underline="false" strikeout="false" kind="WindowsFont" scale="100"/>
+	<format>
+		<width>67</width>
+	</format>
+	<format>
+		<width>541</width>
+	</format>
+	<format>
+		<width>170</width>
+	</format>
+	<format>
+		<width>192</width>
+	</format>
+	<format>
+		<width>93</width>
+	</format>
+	<format>
+		<width>118</width>
+	</format>
+	<format>
+		<width>121</width>
+	</format>
+	<format>
+		<width>152</width>
+	</format>
+	<format>
+		<width>165</width>
+	</format>
+	<format>
+		<width>203</width>
+	</format>
+	<format>
+		<width>245</width>
+	</format>
+	<format>
+		<width>204</width>
+	</format>
+	<format>
+		<height>147</height>
+	</format>
+	<format>
+		<font>0</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>75</height>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>1</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<height>63</height>
+	</format>
+	<format>
+		<font>3</font>
+		<border>0</border>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>2</font>
+		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<height>129</height>
+	</format>
+	<format>
+		<font>2</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<width>85</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<width>444</width>
+	</format>
+	<format>
+		<width>114</width>
+	</format>
+	<format>
+		<width>132</width>
+	</format>
+	<format>
+		<width>91</width>
+	</format>
+	<format>
+		<width>100</width>
+	</format>
+	<format>
+		<height>78</height>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>1</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>1</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>183</height>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>1</font>
+		<border>1</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>1</font>
+		<border>1</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>2</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>126</height>
+	</format>
+	<format>
+		<font>5</font>
+		<border>2</border>
+		<width>48</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>5</font>
+		<border>2</border>
+		<width>280</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>5</font>
+		<border>2</border>
+		<width>80</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>5</font>
+		<border>2</border>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>5</font>
+		<border>2</border>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>5</font>
+		<border>2</border>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>5</font>
+		<border>2</border>
+		<width>96</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Block</textPlacement>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧДЦ=2; ЧН=-</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>5</font>
+		<border>2</border>
+		<height>0</height>
+		<width>59</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=3</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>5</font>
+		<border>2</border>
+		<height>0</height>
+		<width>66</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=3</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<height>60</height>
+	</format>
+	<format>
+		<font>1</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>6</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>7</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>6</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<font>6</font>
+		<border>0</border>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>1</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>1</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>2</bottomBorder>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<height>54</height>
+	</format>
+	<format>
+		<font>8</font>
+		<leftBorder>0</leftBorder>
+		<topBorder>2</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Bottom</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor>#FFFFFF</backColor>
+		<textPlacement>Auto</textPlacement>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+</document>
