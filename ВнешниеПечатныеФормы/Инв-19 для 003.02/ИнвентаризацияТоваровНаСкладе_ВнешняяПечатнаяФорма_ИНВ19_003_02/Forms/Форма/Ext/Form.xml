@@ -3,7 +3,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
 		<InputField name="СсылкаНаОбъект" id="1">
-			<DataPath>Объект.СсылкаНаОбъект</DataPath>
+			<DataPath>1/0:5def5dd7-148d-4665-874a-f1c93dfb56d0</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СсылкаНаОбъектКонтекстноеМеню" id="2"/>
