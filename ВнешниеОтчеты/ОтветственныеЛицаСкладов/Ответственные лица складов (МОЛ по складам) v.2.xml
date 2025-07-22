@@ -20,7 +20,7 @@
 				</v8:item>
 			</Synonym>
 			<Comment>&lt;ИГС&gt; Гаврилова А.Н. 30.06.2025 #0128</Comment>
-			<DefaultForm>ExternalReport.ОтветственныеЛицаСкладов.Form.ФормаОтчета</DefaultForm>
+			<DefaultForm/>
 			<AuxiliaryForm/>
 			<MainDataCompositionSchema>ExternalReport.ОтветственныеЛицаСкладов.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
 			<DefaultSettingsForm/>
@@ -67,7 +67,6 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Form>ФормаОтчета</Form>
 			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
 		</ChildObjects>
 	</ExternalReport>
