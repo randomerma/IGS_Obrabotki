@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
-	<ExternalReport uuid="dd8bdb61-4902-4294-a38e-fe7d283361ab">
+	<ExternalReport uuid="a632c8b5-f7a2-4fdf-9cf1-65b7348727b8">
 		<InternalInfo>
 			<xr:ContainedObject>
 				<xr:ClassId>e41aff26-25cf-4bb6-b6c1-3f478a75f374</xr:ClassId>
-				<xr:ObjectId>e2319ca9-e3f8-4c97-a3d8-ae19eeee0b77</xr:ObjectId>
+				<xr:ObjectId>db0a548e-546e-4294-91f9-140e6d97ba6c</xr:ObjectId>
 			</xr:ContainedObject>
 			<xr:GeneratedType name="ExternalReportObject.БуровыеИКомплектующие" category="Object">
-				<xr:TypeId>ea522e9a-d5cd-471d-9635-7e7d32fd686b</xr:TypeId>
-				<xr:ValueId>c388af11-ecbb-4dbc-8eff-6c35d82de9dc</xr:ValueId>
+				<xr:TypeId>81a9a4c0-7a96-4f96-8669-4c37cee8ace9</xr:TypeId>
+				<xr:ValueId>bce9d70f-6506-4dd2-86b0-2db911ea2f29</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
