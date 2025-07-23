@@ -455,8 +455,8 @@
 ВЫБРАТЬ
 	ВТ_ПТУ.Ссылка КАК ДокументПоступления,
 	ПоступлениеТоваровУслугУслуги.Номенклатура КАК Услуга,
-	ПоступлениеТоваровУслугУслуги.игсНачалоПериодаСписанияТМЦ КАК игсНачалоПериодаСписанияТМЦ,
-	ПоступлениеТоваровУслугУслуги.игсКонецПериодаСписанияТМЦ КАК игсКонецПериодаСписанияТМЦ
+	ПоступлениеТоваровУслугУслуги.игсДатаНачала КАК игсНачалоПериодаСписанияТМЦ,
+	ПоступлениеТоваровУслугУслуги.игсДатаОкончания КАК игсКонецПериодаСписанияТМЦ
 ПОМЕСТИТЬ ВТ_ДатыОказанияУслуг
 ИЗ
 	ВТ_ПТУ КАК ВТ_ПТУ
@@ -595,50 +595,6 @@
 	И ВТ_ДанныеПТУ.Ссылка.ВидОперации &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ВидыОперацийПоступлениеТоваровУслуг.игсНеотфактурованнаяПоставка)
 	И ХозрасчетныйОстатки.СуммаОстатокКт &gt; 0</query>
 	</dataSet>
-	<totalField>
-		<dataPath>СуммаОплат_согл</dataPath>
-		<expression>Сумма(СуммаОплат_согл)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>СуммаОплат_опл</dataPath>
-		<expression>Сумма(СуммаОплат_опл)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>СуммаЗаявки_согл</dataPath>
-		<expression>Сумма(СуммаЗаявки_согл)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>СуммаЗаявки_опл</dataPath>
-		<expression>Сумма(СуммаЗаявки_опл)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>СуммаДокумента_опл</dataPath>
-		<expression>Сумма(СуммаДокумента_опл)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>СуммаДокумента_акт</dataPath>
-		<expression>Сумма(СуммаДокумента_акт)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ЗРДС_опл</dataPath>
-		<expression>NULL</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ЗРДС_согл</dataPath>
-		<expression>NULL</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ДатаФактОплаты_опл</dataPath>
-		<expression>NULL</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ДатЗаявки</dataPath>
-		<expression>NULL</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ПТУ</dataPath>
-		<expression>NULL</expression>
-	</totalField>
 	<parameter>
 		<name>Период</name>
 		<title xsi:type="v8:LocalStringType">
@@ -657,6 +613,24 @@
 		<useRestriction>true</useRestriction>
 	</parameter>
 	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
 		<name>КонецПериода</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
@@ -671,7 +645,8 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
 	</parameter>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -688,7 +663,8 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
 	</parameter>
 	<parameter>
 		<name>СубконтоСчета</name>
@@ -865,25 +841,26 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>Период</dcscor:parameter>
-					<dcscor:value xsi:type="v8:StandardPeriod">
-						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-					</dcscor:value>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
 					<dcsset:userSettingID>61d88404-0a4f-481b-bd21-455e34524205</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>КонецПериода</dcscor:parameter>
-					<dcscor:value xsi:type="v8:StandardBeginningDate">
-						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
 					</dcscor:value>
+					<dcsset:userSettingID>4fc6e679-62b7-4e3f-91d2-16cf13b9e9ee</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
 					<dcsset:userSettingID>adec028c-0707-4ad9-82ea-26e36f821202</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
-					<dcscor:value xsi:type="v8:StandardBeginningDate">
-						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisMonth</v8:variant>
-					</dcscor:value>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
 					<dcsset:userSettingID>71f1493d-32e8-4f0c-af8d-0fe3f36dcb89</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
