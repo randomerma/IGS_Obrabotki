@@ -1,0 +1,770 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтруктурнаяЕдиница</dataPath>
+			<field>СтруктурнаяЕдиница</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Склад</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ФизическоеЛицо</dataPath>
+			<field>ФизическоеЛицо</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен9</dataPath>
+			<field>Уволен9</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен9</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен1</dataPath>
+			<field>Уволен1</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен1</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен2</dataPath>
+			<field>Уволен2</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен2</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен3</dataPath>
+			<field>Уволен3</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен3</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен4</dataPath>
+			<field>Уволен4</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен4</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен5</dataPath>
+			<field>Уволен5</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен5</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен6</dataPath>
+			<field>Уволен6</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен6</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен7</dataPath>
+			<field>Уволен7</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен7</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен8</dataPath>
+			<field>Уволен8</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен8</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен10</dataPath>
+			<field>Уволен10</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен10</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоВсего</dataPath>
+			<field>КоличествоВсего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество всего</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоУволенные</dataPath>
+			<field>КоличествоУволенные</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество уволенные</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо2</dataPath>
+			<field>игсФизическоеЛицо2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен11</dataPath>
+			<field>Уволен11</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен11</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо3</dataPath>
+			<field>игсФизическоеЛицо3</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен12</dataPath>
+			<field>Уволен12</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен12</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо4</dataPath>
+			<field>игсФизическоеЛицо4</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен13</dataPath>
+			<field>Уволен13</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен13</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо5</dataPath>
+			<field>игсФизическоеЛицо5</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен14</dataPath>
+			<field>Уволен14</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен14</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо6</dataPath>
+			<field>игсФизическоеЛицо6</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уволен15</dataPath>
+			<field>Уволен15</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уволен15</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо10</dataPath>
+			<field>игсФизическоеЛицо10</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо13</dataPath>
+			<field>игсФизическоеЛицо13</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо7</dataPath>
+			<field>игсФизическоеЛицо7</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо8</dataPath>
+			<field>игсФизическоеЛицо8</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо9</dataPath>
+			<field>игсФизическоеЛицо9</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо11</dataPath>
+			<field>игсФизическоеЛицо11</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо12</dataPath>
+			<field>игсФизическоеЛицо12</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо14</dataPath>
+			<field>игсФизическоеЛицо14</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсФизическоеЛицо15</dataPath>
+			<field>игсФизическоеЛицо15</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>игсОрганизация</dataPath>
+			<field>игсОрганизация</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	СотрудникиОрганизаций.ФизическоеЛицо КАК Физлицо
+ПОМЕСТИТЬ ВТРаботающиеСотрудники
+ИЗ
+	РегистрСведений.ТекущиеКадровыеДанныеСотрудников КАК СотрудникиОрганизаций
+ГДЕ
+	СотрудникиОрганизаций.ОформленПоТрудовомуДоговору
+	И (СотрудникиОрганизаций.ДатаУвольнения = ДАТАВРЕМЯ(1, 1, 1)
+			ИЛИ СотрудникиОрганизаций.ДатаУвольнения &gt;= &amp;КонецПериодаДата)
+	И СотрудникиОрганизаций.ДатаПриема &lt;= &amp;КонецПериодаДата
+
+СГРУППИРОВАТЬ ПО
+	СотрудникиОрганизаций.ФизическоеЛицо
+
+ИНДЕКСИРОВАТЬ ПО
+	Физлицо
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СотрудникиОрганизаций.ФизическоеЛицо КАК Физлицо,
+	МАКСИМУМ(СотрудникиОрганизаций.ДатаУвольнения) КАК ДатаУвольнения,
+	СотрудникиОрганизаций.ТекущаяОрганизация КАК ТекущаяОрганизация
+ПОМЕСТИТЬ ВТУволенныеСотрудники
+ИЗ
+	РегистрСведений.ТекущиеКадровыеДанныеСотрудников КАК СотрудникиОрганизаций
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТРаботающиеСотрудники КАК ВТРаботающиеСотрудники
+		ПО СотрудникиОрганизаций.ФизическоеЛицо = ВТРаботающиеСотрудники.Физлицо
+ГДЕ
+	СотрудникиОрганизаций.ОформленПоТрудовомуДоговору
+	И СотрудникиОрганизаций.ДатаУвольнения &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+	И СотрудникиОрганизаций.ДатаУвольнения &lt;= &amp;КонецПериодаДата
+	И ВТРаботающиеСотрудники.Физлицо ЕСТЬ NULL
+
+СГРУППИРОВАТЬ ПО
+	СотрудникиОрганизаций.ФизическоеЛицо,
+	СотрудникиОрганизаций.ТекущаяОрганизация
+
+ИНДЕКСИРОВАТЬ ПО
+	Физлицо
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ ВТРаботающиеСотрудники
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники1.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен1,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники2.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен2,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники3.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен3,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники4.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен4,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники5.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен5,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники6.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен6,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники7.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен7,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники8.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен8,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники9.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен9,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники10.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен10,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники11.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен11,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники12.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен12,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники13.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен13,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники14.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен14,
+	ВЫБОР
+		КОГДА ВТУволенныеСотрудники15.Физлицо ЕСТЬ NULL
+			ТОГДА ""
+		ИНАЧЕ "да"
+	КОНЕЦ КАК Уволен15,
+	ОтветственныеЛицаСрезПоследних.СтруктурнаяЕдиница КАК СтруктурнаяЕдиница,
+	ОтветственныеЛицаСрезПоследних.ФизическоеЛицо КАК ФизическоеЛицо,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо2 КАК игсФизическоеЛицо2,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо3 КАК игсФизическоеЛицо3,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо4 КАК игсФизическоеЛицо4,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо5 КАК игсФизическоеЛицо5,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо6 КАК игсФизическоеЛицо6,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо7 КАК игсФизическоеЛицо7,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо8 КАК игсФизическоеЛицо8,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо9 КАК игсФизическоеЛицо9,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо10 КАК игсФизическоеЛицо10,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо11 КАК игсФизическоеЛицо11,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо12 КАК игсФизическоеЛицо12,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо13 КАК игсФизическоеЛицо13,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо14 КАК игсФизическоеЛицо14,
+	ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо15 КАК игсФизическоеЛицо15,
+	ВЫБОР
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо15 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо15 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 15
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо14 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо14 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 14
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо13 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо13 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 13
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо12 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо12 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 12
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо11 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо11 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 11
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо10 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо10 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 10
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо9 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо9 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 9
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо8 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо8 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 8
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо7 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо7 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 7
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо6 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо6 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 6
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо5 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо5 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 5
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо4 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо4 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 4
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо3 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо3 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 3
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо2 ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо2 &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 2
+		КОГДА НЕ ОтветственныеЛицаСрезПоследних.ФизическоеЛицо ЕСТЬ NULL
+				И ОтветственныеЛицаСрезПоследних.ФизическоеЛицо &lt;&gt; ЗНАЧЕНИЕ(Справочник.ФизическиеЛица.ПустаяСсылка)
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК КоличествоВсего,
+	0 + ВЫБОР
+		КОГДА ВТУволенныеСотрудники15.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники14.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники13.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники12.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники11.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники10.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники9.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники8.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники7.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники6.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники5.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники4.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники3.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники2.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ + ВЫБОР
+		КОГДА ВТУволенныеСотрудники1.Физлицо ЕСТЬ NULL
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ КАК КоличествоУволенные,
+	Склады.игсОрганизация КАК игсОрганизация
+ИЗ
+	РегистрСведений.ОтветственныеЛица.СрезПоследних(&amp;КонецПериодаДата, СтруктурнаяЕдиница ССЫЛКА Справочник.Склады) КАК ОтветственныеЛицаСрезПоследних
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники1
+		ПО ОтветственныеЛицаСрезПоследних.ФизическоеЛицо = ВТУволенныеСотрудники1.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники2
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо2 = ВТУволенныеСотрудники2.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники3
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо3 = ВТУволенныеСотрудники3.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники4
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо4 = ВТУволенныеСотрудники4.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники5
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо5 = ВТУволенныеСотрудники5.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники6
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо6 = ВТУволенныеСотрудники6.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники7
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо7 = ВТУволенныеСотрудники7.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники8
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо8 = ВТУволенныеСотрудники8.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники9
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо9 = ВТУволенныеСотрудники9.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники10
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо10 = ВТУволенныеСотрудники10.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники11
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо11 = ВТУволенныеСотрудники11.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники12
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо12 = ВТУволенныеСотрудники12.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники13
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо13 = ВТУволенныеСотрудники13.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники14
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо14 = ВТУволенныеСотрудники14.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТУволенныеСотрудники КАК ВТУволенныеСотрудники15
+		ПО ОтветственныеЛицаСрезПоследних.игсФизическоеЛицо15 = ВТУволенныеСотрудники15.Физлицо
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Склады КАК Склады
+		ПО ОтветственныеЛицаСрезПоследних.СтруктурнаяЕдиница = Склады.Ссылка
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ ВТУволенныеСотрудники</query>
+	</dataSet>
+	<parameter>
+		<name>ВидДоговора</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Вид договора</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыДоговоровСФизЛицами.ТрудовойДоговор</value>
+		<useRestriction>true</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериодаДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>Date</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>КонецПериода(&amp;Период, "ДЕНЬ")</expression>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Ответственные лица складов (МОЛ по складам)</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СтруктурнаяЕдиница</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ФизическоеЛицо</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен1</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен2</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо3</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен3</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо4</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен4</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо5</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен5</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо6</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен6</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо7</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен7</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо8</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен8</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо9</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен9</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо10</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен10</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо11</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен11</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо12</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен12</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо13</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен13</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо14</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен14</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>игсФизическоеЛицо15</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Уволен15</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоВсего</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоУволенные</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">СтруктурнаяЕдиница</dcsset:left>
+					<dcsset:comparisonType>InListByHierarchy</dcsset:comparisonType>
+					<dcsset:right xsi:nil="true"/>
+					<dcsset:userSettingID>d39a924f-a41c-418c-84cc-f1d5979a1b89</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад (группа)</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">игсОрганизация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>d5c34abb-6e0e-47f0-b542-7fb896bddac3</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardBeginningDate">
+						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>СтруктурнаяЕдиница.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>АвтоПозицияРесурсов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionResourcesAutoPosition">DontUse</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:use>false</dcsset:use>
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СтруктурнаяЕдиница</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

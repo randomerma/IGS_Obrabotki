@@ -106,6 +106,10 @@
 		ПО игсУчетЗабалансовыхОСПриходОС.Ссылка = игсУчетЗабалансовыхОСРасходОС.Ссылка
 			И игсУчетЗабалансовыхОСПриходОС.ОсновноеСредство = игсУчетЗабалансовыхОСРасходОС.ОсновноеСредство
 			И (игсУчетЗабалансовыхОСПриходОС.Ссылка.Проведен)
+
+ИНДЕКСИРОВАТЬ ПО
+	ОсновноеСредство,
+	Ссылка
 ;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -150,7 +154,11 @@
 	РегистрНакопления.игсАрендованныеОС.Обороты(, , Регистратор, ) КАК игсАрендованныеОСОбороты
 		ВНУТРЕННЕЕ СОЕДИНЕНИЕ ВТПеремещения КАК ВТПеремещения
 		ПО игсАрендованныеОСОбороты.Регистратор = ВТПеремещения.Ссылка
-			И игсАрендованныеОСОбороты.ОсновноеСредство = ВТПеремещения.ОсновноеСредство</query>
+			И игсАрендованныеОСОбороты.ОсновноеСредство = ВТПеремещения.ОсновноеСредство
+;
+
+////////////////////////////////////////////////////////////////////////////////
+УНИЧТОЖИТЬ ВТПеремещения</query>
 	</dataSet>
 	<totalField>
 		<dataPath>СуммаКонечныйОстаток</dataPath>
@@ -177,6 +185,24 @@
 		<expression>Сумма(СуммаРасходСписание)</expression>
 	</totalField>
 	<parameter>
+		<name>ПериодОтчета</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период отчета</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
 		<name>НачалоПериода</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
@@ -191,7 +217,8 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаНачала</expression>
 	</parameter>
 	<parameter>
 		<name>КонецПериода</name>
@@ -208,7 +235,8 @@
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>false</useRestriction>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодОтчета.ДатаОкончания</expression>
 	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
@@ -248,17 +276,22 @@
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>НачалоПериода</dcscor:parameter>
-					<dcscor:value xsi:type="v8:StandardBeginningDate">
-						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisMonth</v8:variant>
+					<dcscor:parameter>ПериодОтчета</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
 					</dcscor:value>
+					<dcsset:userSettingID>2721738c-4228-474f-b1ec-d1cfcbcaa1da</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
 					<dcsset:userSettingID>7f886c18-2851-4b44-b550-179894074e7c</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
-					<dcscor:value xsi:type="v8:StandardBeginningDate">
-						<v8:variant xsi:type="v8:StandardBeginningDateVariant">BeginningOfThisDay</v8:variant>
-					</dcscor:value>
+					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
 					<dcsset:userSettingID>b2b39686-0f93-4b31-881d-429f13b94e35</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>

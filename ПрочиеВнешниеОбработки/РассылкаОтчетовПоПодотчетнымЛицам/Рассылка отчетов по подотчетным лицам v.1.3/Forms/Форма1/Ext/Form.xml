@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Организация" id="60">
+			<DataPath>Объект.Организация</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="61"/>
+			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="62"/>
+		</InputField>
+		<InputField name="ТемаПисьма" id="41">
+			<DataPath>Объект.ТемаПисьма</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТемаПисьмаКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="ТемаПисьмаРасширеннаяПодсказка" id="43"/>
+		</InputField>
+		<InputField name="ТекстПисьма" id="38">
+			<DataPath>Объект.ТекстПисьма</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ТекстПисьмаКонтекстноеМеню" id="39"/>
+			<ExtendedTooltip name="ТекстПисьмаРасширеннаяПодсказка" id="40"/>
+		</InputField>
+		<UsualGroup name="Период" id="52">
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="53"/>
+			<ChildItems>
+				<InputField name="НачПериод" id="46">
+					<DataPath>Объект.НачПериод</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НачПериодКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="НачПериодРасширеннаяПодсказка" id="48"/>
+				</InputField>
+				<InputField name="КонПериода" id="49">
+					<DataPath>Объект.КонПериод</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="КонПериодаКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="КонПериодаРасширеннаяПодсказка" id="51"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="МОЛ" id="1">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.МОЛ</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="МОЛКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="МОЛКоманднаяПанель" id="3">
+				<ChildItems>
+					<Button name="ФормаЗаполнить" id="44">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Заполнить</CommandName>
+						<ExtendedTooltip name="ФормаЗаполнитьРасширеннаяПодсказка" id="45"/>
+					</Button>
+					<Button name="МОЛОтправить" id="54">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.Отправить</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отправить</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="МОЛОтправитьРасширеннаяПодсказка" id="55"/>
+					</Button>
+					<Button name="МОЛВыбратьВсе" id="56">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ВыбратьВсе</CommandName>
+						<Picture>
+							<xr:Ref>StdPicture.CheckAll</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="МОЛВыбратьВсеРасширеннаяПодсказка" id="57"/>
+					</Button>
+					<Button name="МОЛУбратьОтметку" id="58">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.УбратьОтметку</CommandName>
+						<Picture>
+							<xr:Ref>StdPicture.UncheckAll</xr:Ref>
+							<xr:LoadTransparent>true</xr:LoadTransparent>
+						</Picture>
+						<ExtendedTooltip name="МОЛУбратьОтметкуРасширеннаяПодсказка" id="59"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="МОЛРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="МОЛСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>МОЛ</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="МОЛСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="МОЛСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="МОЛСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>МОЛ</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="МОЛСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="МОЛСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="МОЛУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>МОЛ</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="МОЛУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="МОЛУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="МОЛНомерСтроки" id="14">
+					<DataPath>Объект.МОЛ.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МОЛНомерСтрокиКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="МОЛНомерСтрокиРасширеннаяПодсказка" id="16"/>
+				</LabelField>
+				<CheckBoxField name="МОЛОтметка" id="17">
+					<DataPath>Объект.МОЛ.Отметка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="МОЛОтметкаКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="МОЛОтметкаРасширеннаяПодсказка" id="19"/>
+				</CheckBoxField>
+				<InputField name="МОЛСклад" id="20">
+					<DataPath>Объект.МОЛ.Склад</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="МОЛСкладКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="МОЛСкладРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="МОЛАдресПочты" id="23">
+					<DataPath>Объект.МОЛ.АдресПочты</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="МОЛАдресПочтыКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="МОЛАдресПочтыРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="МОЛНачальныйОстаток" id="26">
+					<DataPath>Объект.МОЛ.НачальныйОстаток</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="МОЛНачальныйОстатокКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="МОЛНачальныйОстатокРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="МОЛПриход" id="29">
+					<DataPath>Объект.МОЛ.Приход</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="МОЛПриходКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="МОЛПриходРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="МОЛРасход" id="32">
+					<DataPath>Объект.МОЛ.Расход</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="МОЛРасходКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="МОЛРасходРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="МОЛКонечныйОстаток" id="35">
+					<DataPath>Объект.МОЛ.КонечныйОстаток</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="МОЛКонечныйОстатокКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="МОЛКонечныйОстатокРасширеннаяПодсказка" id="37"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.РассылкаОтчетовПоПодотчетнымЛицам</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Заполнить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Заполнить</Action>
+		</Command>
+		<Command name="Отправить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Отправить</Action>
+		</Command>
+		<Command name="ВыбратьВсе" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбрать все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыбратьВсе</Action>
+		</Command>
+		<Command name="УбратьОтметку" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убрать отметку</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Убрать отметку</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УбратьОтметку</Action>
+		</Command>
+	</Commands>
+</Form>
