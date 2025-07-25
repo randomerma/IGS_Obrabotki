@@ -6,21 +6,21 @@
 				<xr:ClassId>c3831ec8-d8d5-4f93-8a22-f9bfae07327f</xr:ClassId>
 				<xr:ObjectId>e69732a2-ca05-4051-a64f-0bb0aebfcd5e</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalDataProcessorObject.ИнвентаризацияТоваровДиалог" category="Object">
+			<xr:GeneratedType name="ExternalDataProcessorObject.ИнвентаризацияТоваровСАртикуломПоставщика" category="Object">
 				<xr:TypeId>e7808fda-bf9a-40e9-a77f-019042f245a1</xr:TypeId>
 				<xr:ValueId>bd6c9b78-9fc1-435f-8717-408167c407c6</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ИнвентаризацияТоваровДиалог</Name>
+			<Name>ИнвентаризацияТоваровСАртикуломПоставщика</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Инвентаризация товаров диалог</v8:content>
+					<v8:content>Инвентаризация товаров с артикулом поставщика</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment>ИГС  Прудько А. pr_dev2 0137</Comment>
-			<DefaultForm>ExternalDataProcessor.ИнвентаризацияТоваровДиалог.Form.Форма</DefaultForm>
+			<Comment>ИГС  Прудько А. pr_dev2 0102</Comment>
+			<DefaultForm>ExternalDataProcessor.ИнвентаризацияТоваровСАртикуломПоставщика.Form.Форма</DefaultForm>
 			<AuxiliaryForm/>
 		</Properties>
 		<ChildObjects>
