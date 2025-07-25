@@ -88,7 +88,7 @@
 	<Attributes>
 		<Attribute name="Отчет" id="1">
 			<Type>
-				<v8:Type>cfg:ExternalReportObject.СводныйОтчетПоИнвентаризации</v8:Type>
+				<v8:Type>cfg:ExternalReportObject.СводныйОтчетПоИнвентаризации_v19</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
