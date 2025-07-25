@@ -6,27 +6,27 @@
 				<xr:ClassId>e41aff26-25cf-4bb6-b6c1-3f478a75f374</xr:ClassId>
 				<xr:ObjectId>cb7c5607-49b4-4266-b218-bb78fdc57d9e</xr:ObjectId>
 			</xr:ContainedObject>
-			<xr:GeneratedType name="ExternalReportObject.СводныйОтчетПоИнвентаризации" category="Object">
+			<xr:GeneratedType name="ExternalReportObject.СводныйОтчетПоИнвентаризации_v6" category="Object">
 				<xr:TypeId>86646ce1-0aad-49e9-8e8d-59bb8d2a30da</xr:TypeId>
 				<xr:ValueId>065f34fe-0e3a-4ac4-9060-d943a336c17a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>СводныйОтчетПоИнвентаризации</Name>
+			<Name>СводныйОтчетПоИнвентаризации_v6</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Сводный отчет по инвентаризации</v8:content>
+					<v8:content>Сводный отчет по инвентаризации ОС [v.6]</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment> &lt;ИГС&gt; ПР Прудько А. #Задача № 0119</Comment>
 			<DefaultForm>CommonForm.ФормаОтчета</DefaultForm>
 			<AuxiliaryForm/>
-			<MainDataCompositionSchema>ExternalReport.СводныйОтчетПоИнвентаризации.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
+			<MainDataCompositionSchema>ExternalReport.СводныйОтчетПоИнвентаризации_v6.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
 			<DefaultSettingsForm>CommonForm.ФормаНастроекОтчета</DefaultSettingsForm>
 			<AuxiliarySettingsForm/>
 			<DefaultVariantForm/>
-			<VariantsStorage/>
+			<VariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</VariantsStorage>
 			<SettingsStorage/>
 		</Properties>
 		<ChildObjects>
